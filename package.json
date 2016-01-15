@@ -1,0 +1,27 @@
+{
+  "name": "aws-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bin/aws-setup",
+  "scripts": {
+    "compile": "./node_modules/.bin/babel src -d dist",
+    "dev": "./node_modules/.bin/babel-node src/bin/aws-setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maysale01/flowjs": "0.0.8",
+    "aws": "0.0.3-2",
+    "aws-sdk": "^2.2.30",
+    "babel-cli": "^6.4.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "debug": "^2.2.0",
+    "dotenv": "^1.2.0",
+    "inquirer": "^0.11.2",
+    "lodash": "^4.0.0",
+    "promisify-node": "^0.3.0"
+  }
+}
