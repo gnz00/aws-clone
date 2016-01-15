@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import 'babel-polyfill';
+
 import dotenv from 'dotenv';
 import Debug from 'debug';
 import util from 'util';
